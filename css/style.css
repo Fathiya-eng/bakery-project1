@@ -1,0 +1,384 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.clear{
+    clear: both;
+}
+
+
+section{
+    padding: 60px 0 ;
+}
+.container{
+    width:90%;
+    margin:auto;
+}
+
+/*-------main page -------*/
+.main-page {
+    height:100vh;
+    background-image: url(../images/imgi_3_drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align:center;
+    color:white;
+    padding-top:30%;
+}
+
+.main-page h1{
+    font-size:22px;
+    font-family:'Alegreya Sans';
+    margin-bottom:10px;
+}
+.main-page h2{
+    font-size:60px;
+    font-family:'Alegreya';
+    margin-bottom:20px;
+}
+.main-page p{
+    font-size:24px;
+    font-family:'Alegreya Sans';
+    margin-bottom:30px;
+}
+
+.main-page button{
+    padding:15px 30px;
+    font-size:16px;
+    border-radius:5px;
+    margin:10px;
+    transition:0.3s;
+}
+.main-page .b1{
+    background-color:#c59d5f;
+    color:white;
+    border:none;
+}
+.main-page .b2{
+    background-color:transparent;
+    color:white;
+    border:2px solid white;
+}
+.main-page .b1:hover{
+    background-color:#b08c55;
+}
+.main-page .b2:hover{
+    background-color:white;
+    color:black;
+}
+
+/*------ NAVBAR --------*/
+.navbar .container{
+     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    background-color: white;
+    padding: 15px 0;
+    transition: all 0.4s ease;
+}
+.navbar.scrolled{
+    height: 60px;
+    padding: 5px 40px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar figure{
+    width: 20%;
+   
+    float: left;
+}
+
+.navbar figure img{
+    width:  100%;
+}
+
+.nav-link a{
+    float: right;
+    margin-left: 20px;
+    padding-top: 15px;
+    color: #595959;
+    text-decoration: none;
+}
+
+.navbar.scrolled .nav-link a{
+    padding-top: 10px;
+}
+
+
+/*-------ABOUT SECTION -------*/
+
+.about-image{
+    float:left;
+    width:48%;
+}
+.about-image img{
+    width:100%;
+    height:auto;
+}
+.about-content{
+    float:left;
+    width:48%;
+    margin-left:4%;
+}
+.about-content h1{
+    font-size:34px;
+    margin-bottom:25px;
+}
+.about-content p{
+    font-size:16px;
+    line-height:1.8;
+    color:#555;
+    margin-bottom:30px;
+
+}
+.about-content .features{
+    list-style:none;
+}
+.about-content .features li{
+    margin-bottom:15px;
+    font-size:16px;
+    color:#555;
+}
+
+/*-----LOCATION SECTION -----*/
+
+.location .content{
+    float:left;
+    width:48%;
+}
+.location .content h1{
+    font-size:36px;
+    margin-bottom:30px;
+}
+.location .content p{
+    font-size:16px;
+    line-height:1.8;
+    color:#555;
+    margin-bottom:20px;
+}
+.location .image{
+    float:left;
+    width:48%;
+    margin-left:4%;
+}
+.location .image img{
+    width:100%;
+    height:auto;
+}
+
+/*----BAKING SECTION -----*/
+
+.baking h1{
+    font-size:36px;
+    margin-bottom:30px;
+}
+.baking .subtitle{
+    color:#777;
+    margin-bottom:50px;
+}
+.baking .card{
+    float:left;
+    width:30%;
+    margin:0 1.5%;
+    text-align:center;
+    margin-bottom:40px;
+}
+.baking .card img{
+    width:100%;
+    height:auto;
+}
+.baking .card h3{
+    font-size:22px;
+    margin:25px 0 15px;
+}
+.baking .card p{
+    font-size:15px;
+    color:#666;
+    line-height:1.7;
+}
+
+/*----CONTACT SECTION ------*/
+
+.contact-info{
+    float:left;
+  
+
+    width: 45%;
+   
+}
+.contact-info h2{
+     font-size: 28px;
+    margin-bottom: 20px;
+}
+.contact-info p{
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+.contact-list{
+     list-style: none;
+    padding: 0;
+}
+.contact-list li{
+     margin-bottom: 15px;
+    color: #444;
+}
+.contact-section iframe{
+    float:left;
+    width:50%;
+
+}
+.map-box iframe{
+    width: 100%;
+
+}
+
+/*-----INFO SECTION-----*/
+.info-section {
+   background: #403a38;
+    color: #bbb;
+}
+.info-col{
+    float:left;
+    width:23%;
+    margin-right:2%;
+    padding: 60px 0;
+}
+.info-col:last-child{
+    margin-right:0;
+    width: 23%;
+}
+.info-col h3{
+     color: #fff;
+    margin-bottom: 20px;
+}
+.info-col p{
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+.info-col ul{
+    list-style:none;
+}
+.info-col ul li{
+    padding: 8px 0;
+    border-bottom: 1px solid #4a4742;
+    font-size: 14px;
+}
+.info-col ul li i{
+     margin-right: 10px;
+}
+
+/*-----FOOTER------*/
+.footer-bottom{
+    background:#353330;
+    text-align:center;
+    padding:40px 0;
+}
+.footer-bottom .logo img{
+    margin-bottom:10px;
+}
+.footer-bottom .logo p{
+    font-size:14px;
+    color:#aaa;
+    margin-bottom:20px;
+}
+.footer-bottom .social a{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    background:#484540;
+    color:#fff;
+    border-radius:50%;
+    line-height:40px;
+    margin:0 5px;
+    transition:0.3s;
+}
+.footer-bottom .social a:hover{
+    background:#c1ab84;
+    color:#000;
+}
+
+/*-----RIGHT SIDE ICONS-----*/
+.right-side-icons{
+    position: fixed;
+    right: 10px;
+    top:30%;
+    z-index: 1000;
+}
+
+.right-side-icons a{
+    display: block;
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+    padding-top: 10px; 
+    
+}
+
+.right-side-icons i{
+    width: 22px;
+    height: 22px;
+}
+
+/*------SCROLL TOP BUTTON------*/
+.scroll-top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+}
+
+.scroll-top a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%; 
+    box-shadow: 0 0 12px rgba(0,0,0,0.25);
+    text-align: center;
+    line-height: 50px; 
+    transition: 0.3s;
+}
+
+.scroll-top a:hover{
+    background-color: #f5f5f5;
+    padding-bottom: 10px;
+}
+
+.scroll-top img{
+    width: 22px;
+    height: 22px;
+    margin-top: 15px; 
+}
+
+@media screen and (min-width:400px) and (max-width:800px){
+
+*{
+    background-color: black;
+}
+ 
+    .about-image,
+    .about-content,
+    .location .content,
+    .location .image,
+    .baking .card,
+    .contact-info,
+    .contact-section iframe,
+    .info-col
+    {
+        float: none;
+        width: 100%;
+    
+    }
+    
+} 
